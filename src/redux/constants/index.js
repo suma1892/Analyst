@@ -1,0 +1,39 @@
+export const loginConstant = {
+  SUCCESS: 'SUCCESS_LOGIN',
+  LOGOUT: 'DELETE_LOGIN_DATA',
+  LOADING: 'LOADING_LOGIN',
+  ERROR: 'ERROR_LOGIN',
+  ERROR_LOGOUT: 'ERROR_LOGOUT',
+  SESSION: 'SESSION_LOGIN',
+  CLIENT_KEY: 'CLIENT_KEY',
+};
+
+export const serverAddressConstant = {
+  LOADING: 'LOADING_SERVER',
+  SUCCESS: 'SUCCESS_SERVER',
+  ERROR: 'ERROR_SERVER',
+};
+
+export const approvalConstant = {
+  LOADING: 'LOADING_APPROVAL',
+  SUCCESS: 'SUCCESS_APPROVAL',
+  ERROR: 'ERROR_APPROVAL',
+};
+
+export const procurementConstant = {
+  LOADING: 'LOADING_PROCUREMENT',
+  SUCCESS: 'SUCCESS_PROCUREMENT',
+  ERROR: 'ERROR_PROCUREMENT',
+};
+
+export const detaiProcurementConstant = {
+  LOADING: 'LOADING_DETAIL_PROCUREMENT',
+  SUCCESS: 'SUCCESS_DETAIL_PROCUREMENT',
+  ERROR: 'ERROR_DETAIL_PROCUREMENT',
+};
+
+export const postConstant = {
+  LOADING: 'LOADING',
+  SUCCESS: 'SUCCESS',
+  ERROR: 'ERROR',
+};
